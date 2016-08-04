@@ -1,0 +1,8 @@
+
+as_produit.default_controller_ListingPage:
+  path: '/product/produits'
+  defaults:
+    _controller: '\Drupal\as_produit\Controller\DefaultController::ListingPage'
+    _title: 'Listing de produits'
+  requirements:
+    _permission: 'access content'
